@@ -72,7 +72,7 @@ Explanation for the options above:
 * `[push] default = matching`: Push only the current branch to the remote, instead of pushing ALL local branches.
 * `[credential] helper = cache`: Store passwords for 10 hours. Otherwise you have to type it in every time.
 
-You should really use a git-aware terminal prompt. There are many options especially for shells such as zsh. Search the web for something like "custom shell prompt git" or use [this one](https://gitlab.com/snippets/16785).
+You should really use a git-aware terminal prompt. There are many options especially for shells such as zsh. Search the web for something like "custom shell prompt git" or use [zshrc](zshrc).
 
 # Basic operations
 
