@@ -152,6 +152,12 @@ git status
 git commit -m 'The commit message'
 ```
 
+Or to let git add all modified files for you and commit, all in one step:
+
+```
+git commit -am 'The commit message'
+```
+
 ## Pushing the commited changes from the local copy into the remote copy
 
 In git, the remote repository is called origin, and the name of the main branch is master (like trunk in SVN). Therefore the following command means "push the commited changes into the repository origin on branch master":
