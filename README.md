@@ -119,6 +119,12 @@ If you use the gitconfig file given above, you should see in yellow files tracke
 git diff
 ```
 
+## Displaying a diff with the changed words (instead of lines)
+
+```
+git diff --color-words --word-diff-regex=\\w+
+```
+
 ## Adding a new file to commit
 
 ```
